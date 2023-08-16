@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="standard_car" vClass= "passenger" guiShape="passenger" color="1,1,0" lcSpeedGain="0" lcKeepRight="0" lcCooperative="0" maxSpeed="12"/>
+    <vType id="standard_truck" vClass= "truck" guiShape="truck" color="0,1,0" lcSpeedGain="0" lcKeepRight="0" lcCooperative="0" maxSpeed="12"/>
+    <vType id="standard_bus" vClass= "bus" guiShape="bus" color="0,0,1" lcSpeedGain="0" lcKeepRight="0" lcCooperative="0" maxSpeed="12"/>
+    <vType id="standard_bicycle" vClass= "bicycle" guiShape="bicycle" color="1,0,1" lcSpeedGain="0" lcKeepRight="0" lcCooperative="0" maxSpeed="12"/>
+    <vType id="standard_motorcycle" vClass= "motorcycle" guiShape="motorcycle" color="0.5,0.5,0" lcSpeedGain="0" lcKeepRight="0" lcCooperative="0" maxSpeed="12"/>
+
+    <route id="W_E" edges="2.0.00 1.0.00 0.0.00 39.0.00"/>
+    <route id="N_S" edges="-46.0.00 -47.0.00 -18.0.00 -41.0.00"/>
+    <route id="E_W" edges="-39.0.00 -0.0.00 -1.0.00 -2.0.00"/>
+    <route id="S_N" edges="41.0.00 40.0.00 17.0.00 46.0.00"/>
+
+    <flow id="rl_S_N_" vehsPerHour="1200" route="S_N" departSpeed="10"/>
+    <flow id="rl_E_W_" vehsPerHour="1200" route="E_W" departSpeed="10"/>
+    <flow id="rl_N_S_" vehsPerHour="1200" route="N_S" departSpeed="10"/>
+    <flow id="rl_W_E_" vehsPerHour="1200" route="W_E" departSpeed="10"/>
+</routes>
