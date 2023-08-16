@@ -2,7 +2,7 @@
 # SEIP
 
 This repository contains code to run simulation experiments for the IEEE ITS 2023 paper titled "Simulation-based Design and Evaluation of
-Infrastructure-based Collective Perception"
+Infrastructure-based Collective Perception" by Ao Qu, Xuhuan Huang, Dajiang Suo
 
 
 ## Authors
@@ -68,4 +68,30 @@ After testing, “results.pkl” is created in mmdet_carla, which will be called
 ```bash
  python tools/visualize_carla.py --id 0 --srcs 0 
 ```
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Acknowledgements
+
+ - This work was partially supported by [MIT Mobility Initiative](https://www.mmi.mit.edu/)
+
+
+## Citation
+If you find this project useful in your research, please consider cite:
+
+```bash
+@article{qu2023seip,
+  title={SEIP: Simulation-based Design and Evaluation of Infrastructure-based Collective Perception},
+  author={Qu, Ao and Huang, Xuhuan and Suo, Dajiang},
+  journal={arXiv preprint arXiv:2305.17892},
+  year={2023}
+}
+```
+## FAQ
+
+#### Questions to the corresponding author djsuo@mit.edu
 
